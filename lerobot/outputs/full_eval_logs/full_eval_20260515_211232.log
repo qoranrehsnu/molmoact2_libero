@@ -1,0 +1,4 @@
+RUN_ID=full_eval_20260515_211232
+START=2026-05-15T21:12:32+09:00
+CWD=/home/robotics/molmoact2/lerobot
+CONDA_PREFIX=/home/robotics/miniconda3/envs/molmoact2-libero

@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>MolmoAct2 LIBERO Eval Success</title>
+<style>
+  body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, sans-serif; background: #f6f7f9; color: #17202a; }
+  main { max-width: 1180px; margin: 0 auto; padding: 28px; }
+  h1 { font-size: 28px; margin: 0 0 8px; }
+  h2 { font-size: 18px; margin: 28px 0 14px; }
+  .meta { color: #586574; font-size: 14px; margin-bottom: 20px; }
+  .summary { display: grid; grid-template-columns: repeat(4, minmax(160px, 1fr)); gap: 12px; }
+  .stat, .panel { background: white; border: 1px solid #dde2e7; border-radius: 8px; padding: 16px; }
+  .stat .k { color: #657181; font-size: 13px; }
+  .stat .v { font-size: 28px; font-weight: 700; margin-top: 6px; }
+  .row { display: grid; grid-template-columns: 130px 1fr 120px; gap: 12px; align-items: center; margin: 12px 0; }
+  .label { font-weight: 650; }
+  .barwrap { height: 22px; background: #e8edf2; border-radius: 5px; overflow: hidden; }
+  .bar { height: 100%; }
+  .value { text-align: right; font-weight: 700; }
+  .value span { display: block; color: #6b7684; font-size: 12px; font-weight: 500; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(112px, 1fr)); gap: 10px; }
+  .task { background: white; border: 1px solid #dde2e7; border-radius: 8px; padding: 10px; }
+  .tasktop { display: flex; justify-content: space-between; color: #52606f; font-size: 12px; }
+  .mini { height: 8px; background: #e8edf2; border-radius: 99px; overflow: hidden; margin: 10px 0 8px; }
+  .mini div { height: 100%; }
+  .taskpct { font-size: 20px; font-weight: 750; }
+  .taskn { color: #6b7684; font-size: 12px; margin-top: 2px; }
+  table { width: 100%; border-collapse: collapse; background: white; border: 1px solid #dde2e7; border-radius: 8px; overflow: hidden; }
+  th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid #e7ebef; }
+  th { background: #eef2f6; font-size: 13px; }
+  tr:last-child td { border-bottom: 0; }
+  @media (max-width: 760px) { main { padding: 16px; } .summary { grid-template-columns: 1fr 1fr; } .row { grid-template-columns: 1fr; } .value { text-align: left; } }
+</style>
+</head>
+<body>
+<main>
+  <h1>MolmoAct2 LIBERO Full Eval</h1>
+  <div class="meta">Source: /home/robotics/molmoact2/lerobot/outputs/eval/2026-05-15/21-19-58_libero_molmoact2/eval_info.json</div>
+  <section class="summary">
+    <div class="stat"><div class="k">Overall Success</div><div class="v">97.3%</div></div>
+    <div class="stat"><div class="k">Episodes</div><div class="v">2000</div></div>
+    <div class="stat"><div class="k">Eval Hours</div><div class="v">8.35</div></div>
+    <div class="stat"><div class="k">Seconds / Episode</div><div class="v">15.03</div></div>
+  </section>
+
+  <h2>Suite Success Rate</h2>
+  <section class="panel">
+    
+      <div class="row">
+        <div class="label">libero_10</div>
+        <div class="barwrap"><div class="bar" style="width:93.8%;background:#c28a16"></div></div>
+        <div class="value">93.8% <span>500 eps</span></div>
+      </div>
+      <div class="row">
+        <div class="label">libero_goal</div>
+        <div class="barwrap"><div class="bar" style="width:98.2%;background:#1f9d55"></div></div>
+        <div class="value">98.2% <span>500 eps</span></div>
+      </div>
+      <div class="row">
+        <div class="label">libero_object</div>
+        <div class="barwrap"><div class="bar" style="width:99.6%;background:#1f9d55"></div></div>
+        <div class="value">99.6% <span>500 eps</span></div>
+      </div>
+      <div class="row">
+        <div class="label">libero_spatial</div>
+        <div class="barwrap"><div class="bar" style="width:97.6%;background:#7aa61f"></div></div>
+        <div class="value">97.6% <span>500 eps</span></div>
+      </div>
+  </section>
+
+  <h2>Task Success Rate</h2>
+  <section class="grid">
+    
+      <div class="task" title="libero_10 task 0: 50/50">
+        <div class="tasktop"><span>10</span><b>0</b></div>
+        <div class="mini"><div style="width:100.0%;background:#1f9d55"></div></div>
+        <div class="taskpct">100.0%</div>
+        <div class="taskn">50/50</div>
+      </div>
+      <div class="task" title="libero_10 task 1: 50/50">
+        <div class="tasktop"><span>10</span><b>1</b></div>
+        <div class="mini"><div style="width:100.0%;background:#1f9d55"></div></div>
+        <div class="taskpct">100.0%</div>
+        <div class="taskn">50/50</div>
+      </div>
+      <div class="task" title="libero_10 task 2: 50/50">
+        <div class="tasktop"><span>10</span><b>2</b></div>
+        <div class="mini"><div style="width:100.0%;background:#1f9d55"></div></div>
+        <div class="taskpct">100.0%</div>
+        <div class="taskn">50/50</div>
+      </div>
+      <div class="task" title="libero_10 task 3: 48/50">
+        <div class="tasktop"><span>10</span><b>3</b></div>
+        <div class="mini"><div style="width:96.0%;background:#7aa61f"></div></div>
+        <div class="taskpct">96.0%</div>
+        <div class="taskn">48/50</div>
+      </div>
+      <div class="task" title="libero_10 task 4: 50/50">
+        <div class="tasktop"><span>10</span><b>4</b></div>
+        <div class="mini"><div style="width:100.0%;background:#1f9d55"></div></div>
+        <div class="taskpct">100.0%</div>
+        <div class="taskn">50/50</div>
+      </div>
+      <div class="task" title="libero_10 task 5: 50/50">
+        <div class="tasktop"><span>10</span><b>5</b></div>
+        <div class="mini"><div style="width:100.0%;background:#1f9d55"></div></div>
+        <div class="taskpct">100.0%</div>
+        <div class="taskn">50/50</div>
+      </div>
+      <div class="task" title="libero_10 task 6: 46/50">
+        <div class="tasktop"><span>10</span><b>6</b></div>
+        <div class="mini"><div style="width:92.0%;background:#c28a16"></div></div>
+        <div class="taskpct">92.0%</div>
+        <div class="taskn">46/50</div>
+      </div>
+      <div class="task" title="libero_10 task 7: 50/50">
+        <div class="tasktop"><span>10</span><b>7</b></div>
+        <div class="mini"><div style="width:100.0%;background:#1f9d55"></div></div>
+        <div class="taskpct">100.0%</div>
+        <div class="taskn">50/50</div>
+      </div>
+      <div class="task" title="libero_10 task 8: 31/50">
+        <div class="tasktop"><span>10</span><b>8</b></div>
+        <div class="mini"><div style="width:62.0%;background:#c2410c"></div></div>
+        <div class="taskpct">62.0%</div>
+        <div class="taskn">31/50</div>
+      </div>
+      <div class="task" title="libero_10 task 9: 44/50">
+        <div class="tasktop"><span>10</span><b>9</b></div>
+        <div class="mini"><div style="width:88.0%;background:#c2410c"></div></div>
+        <div class="taskpct">88.0%</div>
+        <div class="taskn">44/50</div>
+      </div>
+      <div class="task" title="libero_goal task 0: 50/50">
+        <div class="tasktop"><span>goal</span><b>0</b></div>
+        <div class="mini"><div style="width:100.0%;background:#1f9d55"></div></div>
+        <div class="taskpct">100.0%</div>
+        <div class="taskn">50/50</div>
+      </div>
+      <div class="task" title="libero_goal task 1: 50/50">
+        <div class="tasktop"><span>goal</span><b>1</b></div>
+        <div class="mini"><div style="width:100.0%;background:#1f9d55"></div></div>
+        <div class="taskpct">100.0%</div>
+        <div class="taskn">50/50</div>
+      </div>
+      <div class="task" title="libero_goal task 2: 46/50">
+        <div class="tasktop"><span>goal</span><b>2</b></div>
+        <div class="mini"><div style="width:92.0%;background:#c28a16"></div></div>
+        <div class="taskpct">92.0%</div>
+        <div class="taskn">46/50</div>
+      </div>
+      <div class="task" title="libero_goal task 3: 49/50">
+        <div class="tasktop"><span>goal</span><b>3</b></div>
+        <div class="mini"><div style="width:98.0%;background:#1f9d55"></div></div>
+        <div class="taskpct">98.0%</div>
+        <div class="taskn">49/50</div>
+      </div>
+      <div class="task" title="libero_goal task 4: 50/50">
+        <div class="tasktop"><span>goal</span><b>4</b></div>
+        <div class="mini"><div style="width:100.0%;background:#1f9d55"></div></div>
+        <div class="taskpct">100.0%</div>
+        <div class="taskn">50/50</div>
+      </div>
+      <div class="task" title="libero_goal task 5: 50/50">
+        <div class="tasktop"><span>goal</span><b>5</b></div>
+        <div class="mini"><div style="width:100.0%;background:#1f9d55"></div></div>
+        <div class="taskpct">100.0%</div>
+        <div class="taskn">50/50</div>
+      </div>
+      <div class="task" title="libero_goal task 6: 49/50">
+        <div class="tasktop"><span>goal</span><b>6</b></div>
+        <div class="mini"><div style="width:98.0%;background:#1f9d55"></div></div>
+        <div class="taskpct">98.0%</div>
+        <div class="taskn">49/50</div>
+      </div>
+      <div class="task" title="libero_goal task 7: 48/50">
+        <div class="tasktop"><span>goal</span><b>7</b></div>
+        <div class="mini"><div style="width:96.0%;background:#7aa61f"></div></div>
+        <div class="taskpct">96.0%</div>
+        <div class="taskn">48/50</div>
+      </div>
+      <div class="task" title="libero_goal task 8: 50/50">
+        <div class="tasktop"><span>goal</span><b>8</b></div>
+        <div class="mini"><div style="width:100.0%;background:#1f9d55"></div></div>
+        <div class="taskpct">100.0%</div>
+        <div class="taskn">50/50</div>
+      </div>
+      <div class="task" title="libero_goal task 9: 49/50">
+        <div class="tasktop"><span>goal</span><b>9</b></div>
+        <div class="mini"><div style="width:98.0%;background:#1f9d55"></div></div>
+        <div class="taskpct">98.0%</div>
+        <div class="taskn">49/50</div>
+      </div>
+      <div class="task" title="libero_object task 0: 50/50">
+        <div class="tasktop"><span>object</span><b>0</b></div>
+        <div class="mini"><div style="width:100.0%;background:#1f9d55"></div></div>
+        <div class="taskpct">100.0%</div>
+        <div class="taskn">50/50</div>
+      </div>
+      <div class="task" title="libero_object task 1: 50/50">
+        <div class="tasktop"><span>object</span><b>1</b></div>
+        <div class="mini"><div style="width:100.0%;background:#1f9d55"></div></div>
+        <div class="taskpct">100.0%</div>
+        <div class="taskn">50/50</div>
+      </div>
+      <div class="task" title="libero_object task 2: 50/50">
+        <div class="tasktop"><span>object</span><b>2</b></div>
+        <div class="mini"><div style="width:100.0%;background:#1f9d55"></div></div>
+        <div class="taskpct">100.0%</div>
+        <div class="taskn">50/50</div>
+      </div>
+      <div class="task" title="libero_object task 3: 49/50">
+        <div class="tasktop"><span>object</span><b>3</b></div>
+        <div class="mini"><div style="width:98.0%;background:#1f9d55"></div></div>
+        <div class="taskpct">98.0%</div>
+        <div class="taskn">49/50</div>
+      </div>
+      <div class="task" title="libero_object task 4: 49/50">
+        <div class="tasktop"><span>object</span><b>4</b></div>
+        <div class="mini"><div style="width:98.0%;background:#1f9d55"></div></div>
+        <div class="taskpct">98.0%</div>
+        <div class="taskn">49/50</div>
+      </div>
+      <div class="task" title="libero_object task 5: 50/50">
+        <div class="tasktop"><span>object</span><b>5</b></div>
+        <div class="mini"><div style="width:100.0%;background:#1f9d55"></div></div>
+        <div class="taskpct">100.0%</div>
+        <div class="taskn">50/50</div>
+      </div>
+      <div class="task" title="libero_object task 6: 50/50">
+        <div class="tasktop"><span>object</span><b>6</b></div>
+        <div class="mini"><div style="width:100.0%;background:#1f9d55"></div></div>
+        <div class="taskpct">100.0%</div>
+        <div class="taskn">50/50</div>
+      </div>
+      <div class="task" title="libero_object task 7: 50/50">
+        <div class="tasktop"><span>object</span><b>7</b></div>
+        <div class="mini"><div style="width:100.0%;background:#1f9d55"></div></div>
+        <div class="taskpct">100.0%</div>
+        <div class="taskn">50/50</div>
+      </div>
+      <div class="task" title="libero_object task 8: 50/50">
+        <div class="tasktop"><span>object</span><b>8</b></div>
+        <div class="mini"><div style="width:100.0%;background:#1f9d55"></div></div>
+        <div class="taskpct">100.0%</div>
+        <div class="taskn">50/50</div>
+      </div>
+      <div class="task" title="libero_object task 9: 50/50">
+        <div class="tasktop"><span>object</span><b>9</b></div>
+        <div class="mini"><div style="width:100.0%;background:#1f9d55"></div></div>
+        <div class="taskpct">100.0%</div>
+        <div class="taskn">50/50</div>
+      </div>
+      <div class="task" title="libero_spatial task 0: 49/50">
+        <div class="tasktop"><span>spatial</span><b>0</b></div>
+        <div class="mini"><div style="width:98.0%;background:#1f9d55"></div></div>
+        <div class="taskpct">98.0%</div>
+        <div class="taskn">49/50</div>
+      </div>
+      <div class="task" title="libero_spatial task 1: 50/50">
+        <div class="tasktop"><span>spatial</span><b>1</b></div>
+        <div class="mini"><div style="width:100.0%;background:#1f9d55"></div></div>
+        <div class="taskpct">100.0%</div>
+        <div class="taskn">50/50</div>
+      </div>
+      <div class="task" title="libero_spatial task 2: 50/50">
+        <div class="tasktop"><span>spatial</span><b>2</b></div>
+        <div class="mini"><div style="width:100.0%;background:#1f9d55"></div></div>
+        <div class="taskpct">100.0%</div>
+        <div class="taskn">50/50</div>
+      </div>
+      <div class="task" title="libero_spatial task 3: 50/50">
+        <div class="tasktop"><span>spatial</span><b>3</b></div>
+        <div class="mini"><div style="width:100.0%;background:#1f9d55"></div></div>
+        <div class="taskpct">100.0%</div>
+        <div class="taskn">50/50</div>
+      </div>
+      <div class="task" title="libero_spatial task 4: 47/50">
+        <div class="tasktop"><span>spatial</span><b>4</b></div>
+        <div class="mini"><div style="width:94.0%;background:#c28a16"></div></div>
+        <div class="taskpct">94.0%</div>
+        <div class="taskn">47/50</div>
+      </div>
+      <div class="task" title="libero_spatial task 5: 43/50">
+        <div class="tasktop"><span>spatial</span><b>5</b></div>
+        <div class="mini"><div style="width:86.0%;background:#c2410c"></div></div>
+        <div class="taskpct">86.0%</div>
+        <div class="taskn">43/50</div>
+      </div>
+      <div class="task" title="libero_spatial task 6: 50/50">
+        <div class="tasktop"><span>spatial</span><b>6</b></div>
+        <div class="mini"><div style="width:100.0%;background:#1f9d55"></div></div>
+        <div class="taskpct">100.0%</div>
+        <div class="taskn">50/50</div>
+      </div>
+      <div class="task" title="libero_spatial task 7: 50/50">
+        <div class="tasktop"><span>spatial</span><b>7</b></div>
+        <div class="mini"><div style="width:100.0%;background:#1f9d55"></div></div>
+        <div class="taskpct">100.0%</div>
+        <div class="taskn">50/50</div>
+      </div>
+      <div class="task" title="libero_spatial task 8: 50/50">
+        <div class="tasktop"><span>spatial</span><b>8</b></div>
+        <div class="mini"><div style="width:100.0%;background:#1f9d55"></div></div>
+        <div class="taskpct">100.0%</div>
+        <div class="taskn">50/50</div>
+      </div>
+      <div class="task" title="libero_spatial task 9: 49/50">
+        <div class="tasktop"><span>spatial</span><b>9</b></div>
+        <div class="mini"><div style="width:98.0%;background:#1f9d55"></div></div>
+        <div class="taskpct">98.0%</div>
+        <div class="taskn">49/50</div>
+      </div>
+  </section>
+
+  <h2>Failed Tasks, Lowest First</h2>
+  <table>
+    <thead><tr><th>Suite</th><th>Task</th><th>Success</th><th>Rate</th></tr></thead>
+    <tbody>
+      <tr><td>libero_10</td><td>8</td><td>31/50</td><td>62.0%</td></tr>
+<tr><td>libero_spatial</td><td>5</td><td>43/50</td><td>86.0%</td></tr>
+<tr><td>libero_10</td><td>9</td><td>44/50</td><td>88.0%</td></tr>
+<tr><td>libero_10</td><td>6</td><td>46/50</td><td>92.0%</td></tr>
+<tr><td>libero_goal</td><td>2</td><td>46/50</td><td>92.0%</td></tr>
+<tr><td>libero_spatial</td><td>4</td><td>47/50</td><td>94.0%</td></tr>
+<tr><td>libero_10</td><td>3</td><td>48/50</td><td>96.0%</td></tr>
+<tr><td>libero_goal</td><td>7</td><td>48/50</td><td>96.0%</td></tr>
+<tr><td>libero_goal</td><td>3</td><td>49/50</td><td>98.0%</td></tr>
+<tr><td>libero_goal</td><td>6</td><td>49/50</td><td>98.0%</td></tr>
+<tr><td>libero_goal</td><td>9</td><td>49/50</td><td>98.0%</td></tr>
+<tr><td>libero_object</td><td>3</td><td>49/50</td><td>98.0%</td></tr>
+<tr><td>libero_object</td><td>4</td><td>49/50</td><td>98.0%</td></tr>
+<tr><td>libero_spatial</td><td>0</td><td>49/50</td><td>98.0%</td></tr>
+<tr><td>libero_spatial</td><td>9</td><td>49/50</td><td>98.0%</td></tr>
+    </tbody>
+  </table>
+</main>
+</body>
+</html>

@@ -1,0 +1,224 @@
+{
+  "per_task": [
+    {
+      "task_group": "libero_goal",
+      "task_id": 0,
+      "metrics": {
+        "sum_rewards": [
+          1.0
+        ],
+        "max_rewards": [
+          1.0
+        ],
+        "successes": [
+          true
+        ],
+        "video_paths": [
+          "outputs/eval/2026-05-15/20-59-28_libero_molmoact2/videos/libero_goal_0/eval_episode_0.mp4"
+        ]
+      }
+    },
+    {
+      "task_group": "libero_goal",
+      "task_id": 1,
+      "metrics": {
+        "sum_rewards": [
+          1.0
+        ],
+        "max_rewards": [
+          1.0
+        ],
+        "successes": [
+          true
+        ],
+        "video_paths": [
+          "outputs/eval/2026-05-15/20-59-28_libero_molmoact2/videos/libero_goal_1/eval_episode_0.mp4"
+        ]
+      }
+    },
+    {
+      "task_group": "libero_goal",
+      "task_id": 2,
+      "metrics": {
+        "sum_rewards": [
+          1.0
+        ],
+        "max_rewards": [
+          1.0
+        ],
+        "successes": [
+          true
+        ],
+        "video_paths": [
+          "outputs/eval/2026-05-15/20-59-28_libero_molmoact2/videos/libero_goal_2/eval_episode_0.mp4"
+        ]
+      }
+    },
+    {
+      "task_group": "libero_goal",
+      "task_id": 3,
+      "metrics": {
+        "sum_rewards": [
+          1.0
+        ],
+        "max_rewards": [
+          1.0
+        ],
+        "successes": [
+          true
+        ],
+        "video_paths": [
+          "outputs/eval/2026-05-15/20-59-28_libero_molmoact2/videos/libero_goal_3/eval_episode_0.mp4"
+        ]
+      }
+    },
+    {
+      "task_group": "libero_goal",
+      "task_id": 4,
+      "metrics": {
+        "sum_rewards": [
+          1.0
+        ],
+        "max_rewards": [
+          1.0
+        ],
+        "successes": [
+          true
+        ],
+        "video_paths": [
+          "outputs/eval/2026-05-15/20-59-28_libero_molmoact2/videos/libero_goal_4/eval_episode_0.mp4"
+        ]
+      }
+    },
+    {
+      "task_group": "libero_goal",
+      "task_id": 5,
+      "metrics": {
+        "sum_rewards": [
+          1.0
+        ],
+        "max_rewards": [
+          1.0
+        ],
+        "successes": [
+          true
+        ],
+        "video_paths": [
+          "outputs/eval/2026-05-15/20-59-28_libero_molmoact2/videos/libero_goal_5/eval_episode_0.mp4"
+        ]
+      }
+    },
+    {
+      "task_group": "libero_goal",
+      "task_id": 6,
+      "metrics": {
+        "sum_rewards": [
+          1.0
+        ],
+        "max_rewards": [
+          1.0
+        ],
+        "successes": [
+          true
+        ],
+        "video_paths": [
+          "outputs/eval/2026-05-15/20-59-28_libero_molmoact2/videos/libero_goal_6/eval_episode_0.mp4"
+        ]
+      }
+    },
+    {
+      "task_group": "libero_goal",
+      "task_id": 7,
+      "metrics": {
+        "sum_rewards": [
+          1.0
+        ],
+        "max_rewards": [
+          1.0
+        ],
+        "successes": [
+          true
+        ],
+        "video_paths": [
+          "outputs/eval/2026-05-15/20-59-28_libero_molmoact2/videos/libero_goal_7/eval_episode_0.mp4"
+        ]
+      }
+    },
+    {
+      "task_group": "libero_goal",
+      "task_id": 8,
+      "metrics": {
+        "sum_rewards": [
+          1.0
+        ],
+        "max_rewards": [
+          1.0
+        ],
+        "successes": [
+          true
+        ],
+        "video_paths": [
+          "outputs/eval/2026-05-15/20-59-28_libero_molmoact2/videos/libero_goal_8/eval_episode_0.mp4"
+        ]
+      }
+    },
+    {
+      "task_group": "libero_goal",
+      "task_id": 9,
+      "metrics": {
+        "sum_rewards": [
+          1.0
+        ],
+        "max_rewards": [
+          1.0
+        ],
+        "successes": [
+          true
+        ],
+        "video_paths": [
+          "outputs/eval/2026-05-15/20-59-28_libero_molmoact2/videos/libero_goal_9/eval_episode_0.mp4"
+        ]
+      }
+    }
+  ],
+  "per_group": {
+    "libero_goal": {
+      "avg_sum_reward": 1.0,
+      "avg_max_reward": 1.0,
+      "pc_success": 100.0,
+      "n_episodes": 10,
+      "video_paths": [
+        "outputs/eval/2026-05-15/20-59-28_libero_molmoact2/videos/libero_goal_0/eval_episode_0.mp4",
+        "outputs/eval/2026-05-15/20-59-28_libero_molmoact2/videos/libero_goal_1/eval_episode_0.mp4",
+        "outputs/eval/2026-05-15/20-59-28_libero_molmoact2/videos/libero_goal_2/eval_episode_0.mp4",
+        "outputs/eval/2026-05-15/20-59-28_libero_molmoact2/videos/libero_goal_3/eval_episode_0.mp4",
+        "outputs/eval/2026-05-15/20-59-28_libero_molmoact2/videos/libero_goal_4/eval_episode_0.mp4",
+        "outputs/eval/2026-05-15/20-59-28_libero_molmoact2/videos/libero_goal_5/eval_episode_0.mp4",
+        "outputs/eval/2026-05-15/20-59-28_libero_molmoact2/videos/libero_goal_6/eval_episode_0.mp4",
+        "outputs/eval/2026-05-15/20-59-28_libero_molmoact2/videos/libero_goal_7/eval_episode_0.mp4",
+        "outputs/eval/2026-05-15/20-59-28_libero_molmoact2/videos/libero_goal_8/eval_episode_0.mp4",
+        "outputs/eval/2026-05-15/20-59-28_libero_molmoact2/videos/libero_goal_9/eval_episode_0.mp4"
+      ]
+    }
+  },
+  "overall": {
+    "avg_sum_reward": 1.0,
+    "avg_max_reward": 1.0,
+    "pc_success": 100.0,
+    "n_episodes": 10,
+    "eval_s": 141.23612809181213,
+    "eval_ep_s": 14.123613524436951,
+    "video_paths": [
+      "outputs/eval/2026-05-15/20-59-28_libero_molmoact2/videos/libero_goal_0/eval_episode_0.mp4",
+      "outputs/eval/2026-05-15/20-59-28_libero_molmoact2/videos/libero_goal_1/eval_episode_0.mp4",
+      "outputs/eval/2026-05-15/20-59-28_libero_molmoact2/videos/libero_goal_2/eval_episode_0.mp4",
+      "outputs/eval/2026-05-15/20-59-28_libero_molmoact2/videos/libero_goal_3/eval_episode_0.mp4",
+      "outputs/eval/2026-05-15/20-59-28_libero_molmoact2/videos/libero_goal_4/eval_episode_0.mp4",
+      "outputs/eval/2026-05-15/20-59-28_libero_molmoact2/videos/libero_goal_5/eval_episode_0.mp4",
+      "outputs/eval/2026-05-15/20-59-28_libero_molmoact2/videos/libero_goal_6/eval_episode_0.mp4",
+      "outputs/eval/2026-05-15/20-59-28_libero_molmoact2/videos/libero_goal_7/eval_episode_0.mp4",
+      "outputs/eval/2026-05-15/20-59-28_libero_molmoact2/videos/libero_goal_8/eval_episode_0.mp4",
+      "outputs/eval/2026-05-15/20-59-28_libero_molmoact2/videos/libero_goal_9/eval_episode_0.mp4"
+    ]
+  }
+}
